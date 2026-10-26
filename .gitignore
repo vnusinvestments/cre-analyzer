@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.DS_Store
+
+# SQLite database — stored on Railway volume, not in git
+deals.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Streamlit secrets
+.streamlit/secrets.toml
